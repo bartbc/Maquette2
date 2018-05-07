@@ -1,0 +1,154 @@
+:root {
+  --firstFontColor: white;
+  --secondaryColor: rgb(245, 126, 55);
+}
+
+header {background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("../img/image-499666622.jpg");
+	background-position: center;
+	color: var(--firstFontColor);
+}
+header a, .section4 i {
+	color: var(--firstFontColor);
+}
+ul {
+	list-style-type: none;
+}
+header ul {
+	justify-content: space-around;
+}
+header img {
+	padding-right: 100px;
+}
+header button, .section6 button { 
+    background-color: var(--secondaryColor);
+    border: none;
+    color: var(--firstFontColor);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+	padding: 0px 20px 40px 0;
+}
+h1 {
+ 	margin: auto;
+}
+h2 {
+    font-size: 3em;
+    white-space: nowrap;
+    padding: 0px 30px 0px 00px;
+}
+a {
+	text-decoration: none;/*supprime la mise en forme des liens*/
+}
+h3 {
+	margin: 20px 0px 20px 0;
+}
+hr {
+	margin: 10px;
+}
+i {
+	 font-size: 1.5em; 
+	 color: var(--secondaryColor);
+	 padding: 5px;
+}
+input, textarea {
+	width: 100%;
+	border: none;
+	background-color: #f2f2f2;
+	height: 30px;
+}
+input:last-child {
+	background-color: var(--secondaryColor);
+	width: 200px;
+	height: 50px;
+	color: var(--firstFontColor);
+}
+address {
+ 	padding-right: 10px;
+ 	font-style: normal;
+}
+.titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 img {
+	width: 10%;
+	height: 10%;
+}
+.section3 {
+	margin-bottom: 20px;
+}
+.section3 a {
+	margin: 20px 20px 20px 0px;
+	color: black;
+}
+.section3 img {
+	width: 33%;
+	height: 33%;
+}
+.section4 {
+	background-color: #f57e37;
+	color: var(--firstFontColor);
+}
+.section4 button {
+	background-color: rgba(245, 126, 55, 0.5);
+	border: none;
+}
+.section6 {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("../img/image-195625538.jpg");
+	color: var(--firstFontColor);
+}
+.section7, .logoReseauxSociaux i{
+	color: #808080;
+}
+.changeColor:active, #mail {
+	color: var(--secondaryColor);
+}
+.container{
+	display: flex;
+	width: 60%;
+	margin: auto;
+}
+.alignItemsCenter {
+	align-items: center;
+}
+.inline {
+	display: inline;
+}
+.flex {
+	display: flex;
+}
+.block {
+	display: block;
+}
+.correctPadding {
+	padding: 20px 0px 40px 0px;
+}
+
+.trait{
+    border-top: solid lightgrey 2px;
+    width: 100%;
+}
+
+/*			sous menu			*/
+.sousMenu {
+    display: none;
+        position: absolute;
+}
+.sousMenu a {
+    display: block;
+    text-align: left;
+}
+.appelSousMenu:hover .sousMenu {
+    display: block;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+}
+@font-face {
+    font-family: twentytwelveslab;
+    src: url(../fonts/twentytwelveslab-light.ttf);
+    font-weight: bold;
+}
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("../img/image-499666622.jpg");
+    background-position: center;
+    color: white;
+}
+header img{
+    padding-right: 40px;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.titre {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+h2{
+   font-family: 'Enyo-Slab_Light';
+   font-size: 3em;
+   color: darkgrey;
+   white-space: nowrap;
+   padding: 0px 30px 0px 00px;
+}
+.trait{
+   border-top: solid lightgrey 2px;
+   width: 100%;
+}
+.first {
+    display:flex;
+}
+article{
+    display: flex;
+    margin-bottom: 20px;
+}
+.first img{
+    width:75px;
+    height:75px;
+    margin-right:20px;
+}
+h4{
+    margin-top: 0;
+}
+
+
+
+/*nav {
+  margin-top: 20px
+}*/
+/*nav img {
+  margin-top: 0px
+}*/
+/*.sousMenu {
+    display: none;
+}
+.sousMenu a {
+    display: block;
+    text-align: left;
+}
+.appelSousMenu:hover .sousMenu {
+    display: block;
+}*/
